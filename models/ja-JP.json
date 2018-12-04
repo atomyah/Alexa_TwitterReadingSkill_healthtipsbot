@@ -1,0 +1,48 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "健康情報ツイートをひらいて",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "終えて",
+            "オッケー",
+            "とめて",
+            "もういい",
+            "ストップ"
+          ]
+        },
+        {
+          "name": "TwitterIntent",
+          "samples": [
+            "よんで",
+            "はい",
+            "読み上げて",
+            "よろしく",
+            "うん",
+            "イエス"
+          ]
+        },
+        {
+          "name": "NextTwitterIntent",
+          "samples": [
+            "つぎおねがい",
+            "つぎ",
+            "ほかは",
+            "別のを読んで",
+            "別の"
+          ]
+        }
+      ]
+    }
+  }
+}

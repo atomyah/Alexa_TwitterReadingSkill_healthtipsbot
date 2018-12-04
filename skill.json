@@ -1,0 +1,31 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "ja-JP": {
+          "summary": "健康情報ツイート",
+          "examplePhrases": [
+            "アレクサ、健康情報ツイートをひらいて",
+            "健康情報ツイート",
+            "健康情報"
+          ],
+          "name": "TwitterReading",
+          "description": "医者が習わない健康情報をつぶやきます"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": "ask-custom-TwitterReading-alexaDeveloper"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
